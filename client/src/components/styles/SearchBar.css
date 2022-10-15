@@ -1,0 +1,28 @@
+.select{
+    display: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(248, 247, 247);
+    width: 150px;
+    margin: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3 rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat, repeat;
+    font-weight:normal;
+}
+
+.buscar{
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:black;
+    color: white;
+    border-bottom: none;
+    width: 80px;
+    height: 28px;
+    font-size: 15px;
+
+}

@@ -1,0 +1,95 @@
+.Card {
+    margin: 80px 48px;
+    flex-wrap: no-wrap;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0vh;
+    grid-gap: 20px;
+ }
+
+.inputs{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+.select{
+    display: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    line-height: 1.3;
+    padding: .4em 1.4em .3em .8em;
+    width: 180px;
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin: 5px;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+    border-radius: .3em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    font-weight:normal;
+}
+
+.btn-crear{
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    margin-top: 20px;
+    
+}
+.btn-crear:active{
+    width: 118px;
+    height: 48px;
+}
+.btn-crear:hover{
+    font-size: 20px;
+}
+.btn-link{
+    text-decoration: none;
+}
+
+
+.actualizar{
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    
+
+}
+
+.actualizar:active{
+    width: 118px;
+    height: 48px;
+}
+.actualizar:hover{
+    font-size: 18px;
+}
+ .temperamentos{
+    font-size: 18px;
+ }

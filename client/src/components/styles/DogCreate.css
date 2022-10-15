@@ -1,0 +1,54 @@
+.create{
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  color:white;;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 30px;
+  cursor: pointer;
+ 
+}
+.create:active{
+  width: 118px;
+  height: 48px;
+}
+.create:hover{
+  font-size: 20px;
+}
+.form{
+    border-radius: 5px;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-shadow: white;
+
+}
+.create-dog{
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  color:white;;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 30px;
+  cursor: pointer;
+}
+.create-dog:active{
+  width: 118px;
+  height: 48px;
+}
+.create-dog:hover{
+  font-size: 20px;
+}
+
+.danger {
+  color:red;
+  font-size: 17px;
+  font-family: lighter;
+  line-height: 200%;
+}

@@ -1,0 +1,21 @@
+.containerCard{
+    margin: 20px;
+    width: 270px;
+    height: 420px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 20px;
+    color: black;
+    
+}
+
+.cardImage { 
+    border-radius: 15px;
+    max-width: 300px;
+    max-height: 200px;
+    
+}
+
+.link{
+    text-decoration: none;
+}
